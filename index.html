@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>NeuraSync AI | The Future of Human Intelligence</title>
     <!-- CSS -->
      <link rel="stylesheet" href="./style.css" class="css">
 
@@ -16,6 +16,11 @@
 
      <!-- Google fonts -->
       <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <!-- AOS Animation -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <!-- favicon -->
+        <link rel="shortcut icon" href="./assets/brain-solid-full.svg" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -73,14 +78,14 @@
                 <a
                   href="#"
                   class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >About</a
+                  >Features</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#testimonials"
                   class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >Services</a
+                  >Testimonials</a
                 >
               </li>
               <li>
@@ -103,16 +108,16 @@
       </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero flex flex-col items-center justify-center">
         <h1 class="text-white font-bold text-6xl">Augument Your Mind with AI</h1>
         <p class="text-white text-lg">The world's first neural interface chip that seamlessly connects artificial intelligence with human cognition, unlocking your brain's full potential.</p>
-        <button class="bg-[#00c6ff] hover:bg-sky-100 rounded-3xl p-2 m-5">Know More</button>
+        <button class="bg-[#00c6ff] hover:bg-sky-100 rounded-3xl cursor-pointer p-2 m-5">Know More</button>
     </section>
 
     <section class="feature mt-10">
       <h1>Revolutionary Features</h1>
-      <div class="flex flex-col md:flex-row gap-10 m-20 justify-center">
-        <div class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700">
+      <div class="flex flex-col md:flex-row gap-10 m-20 justify-center holographic-container">
+        <div data-aos="fade-up" class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700 holographic-card">
     <a href="#">
         <video class="rounded-t-lg" autoplay loop muted playsinline>
       <source src="./assets/Enhanced cognition.mp4" type="video/mp4">
@@ -132,7 +137,7 @@
     </div>
 </div>
 
-<div class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700">
+<div data-aos="fade-up" class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700 holographic-card">
     <a href="#">
         <video class="rounded-t-lg" autoplay loop muted playsinline>
       <source src="./assets/AI_Generates_Instant_Knowledge_Video.mp4" type="video/mp4">
@@ -152,7 +157,7 @@
     </div>
 </div>
 
-<div class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700">
+<div data-aos="fade-up" class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700 holographic-card">
     <a href="#">
         <video class="rounded-t-lg" autoplay loop muted playsinline>
       <source src="./assets/AI_Creative_Block_Inspiration_Video.mp4" type="video/mp4">
@@ -247,5 +252,8 @@ Learning a new programming language took hours instead of weeks. If you care for
       <p class="copyright text-white text-center text-sm mt-7">&copy 2025 NeuraSync AI. All rights reserved. The future of human intelligence is here.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
