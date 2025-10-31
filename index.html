@@ -9,6 +9,8 @@
 
     <!-- tailwind css cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- flowbite -->
+     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <!-- Font awesome CDN -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -25,7 +27,7 @@
             href=""
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <i class="fa-solid fa-brain text-3xl text-white"></i>
+            <i class="fa-solid fa-brain text-3xl text-[#00c6ff]"></i>
             <span
               class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
               >NeuraSync AI</span
@@ -109,7 +111,7 @@
 
     <section class="feature mt-10">
       <h1>Revolutionary Features</h1>
-      <div class="flex flex-col md:flex-row gap-10 m-10 justify-center">
+      <div class="flex flex-col md:flex-row gap-10 m-20 justify-center">
         <div class="cards max-w-sm bg-white rounded-lg shadow-sm dark:bg-white dark:border-gray-700">
     <a href="#">
         <video class="rounded-t-lg" autoplay loop muted playsinline>
@@ -170,9 +172,80 @@
     </div>
 </div>
       </div>
+    </section>
 
+    <section class="testimonials bg-gray-800 p-8">
+      
+<h1 class="text-white ">What Users Say</h1>
+<div class="grid mb-8 border border-gray-200 shadow-xs dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800">
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">A Quantum Leap in Human Productivity</h3>
+            <p class="my-4">Since installing the NeuraSync chip, my productivity has increased by 300%. I can process complex data in seconds and come up with innovative solutions that used to take weeks."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center ">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                <div>Dr. Rebecca Stone</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400 ">Neuroscientist</div>
+            </div>
+        </figcaption>    
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Human intuition meets AI precision</h3>
+            <p class="my-4">The transition process was surprisingly smooth. Within days, I felt a strange calm — like my thoughts had become organized automatically. The NeuraSync doesn’t take over your thinking; it enhances it.</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center ">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                <div>Roberta Casas</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
+            </div>
+        </figcaption>    
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-es-lg md:border-b-0 md:border-e dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Information at the speed of thought</h3>
+            <p class="my-4">As a data analyst, my work involves juggling endless numbers and reports. With the NeuraSync, it’s as if the data just appears in my mind when I need it.
 
+Learning a new programming language took hours instead of weeks. If you care for your time and efficiency, this is the upgrade you’ve been waiting for.</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center ">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                <div>Jese Leos</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">Data Analyst</div>
+            </div>
+        </figcaption>    
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Learning Without Limits</h3>
+            <p class="my-4">Learning new languages used to take me years. With NeuraSync, I became fluent in three languages in just six months. It's like having a personal tutor in my mind 24/7.</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center ">
+            <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture">
+            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                <div>Joseph McFall</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">Global Business Consultant</div>
+            </div>
+        </figcaption>    
+    </figure>
+</div>
 
     </section>
+    <footer class="bg-gray-900 pt-10">
+      <h1 class="text-white"><i class="fa-solid fa-brain text-3xl text-[#00c6ff]"></i> NeuraSync</h1>
+      <div class="flex justify-center socials gap-5 mt-10">
+        <button class="bg-[#24292F] hover:bg-[#00c6ff]"><i class="fab fa-facebook-f text-white"></i></button>
+        <button class="bg-[#24292F] hover:bg-[#00c6ff] rounded"><i class="fa-brands fa-x-twitter text-white"></i></button>
+        <button class="bg-[#24292F] hover:bg-[#00c6ff] rounded"><i class="fab fa-instagram text-white"></i></button>
+        <button class="bg-[#24292F] hover:bg-[#00c6ff] rounded"><i class="fab fa-linkedin-in text-white"></i></button>
+         <button class="bg-[#24292F] hover:bg-[#00c6ff] rounded"><i class="fab fa-youtube text-white"></i></button>
+      </div>
+      <p class="copyright text-white text-center text-sm mt-7">&copy 2025 NeuraSync AI. All rights reserved. The future of human intelligence is here.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
   </body>
 </html>
